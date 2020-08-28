@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="node_modules\@fortawesome\fontawesome-free\css\all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/xterm/3.14.5/xterm.min.css" integrity="sha512-iLYuqv+v/P4u9erpk+KM83Ioe/l7SEmr7wB6g+Kg1qmEit8EShDKnKtLHlv2QXUp7GGJhmqDI+1PhJYLTsfb8w==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="top-bar" id="top-bar">
+        <div class="btn-container" id="btn-container">
+            <button class="new-btn" id="new-btn">New</button>
+            <button class="save-btn" id="save-btn">Save</button>
+            <button class ="save-btn" id="theme-btn">Light</button>
+        </div>
+        <div class="tab-container" id="tab-container"></div>
+    </div>
+    <div class="container" id="container">
+        <div class="file-explorer" id="file-explorer">
+            <div id="tree">
+
+            </div>
+        </div>
+        <div class="main-container" id="main-container">
+            <div class="editor-container" id="editor-container">
+                <div id="code-editor"></div>
+            </div>
+            <div class="terminal-container" id="terminal-container">
+                <div id="terminal">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

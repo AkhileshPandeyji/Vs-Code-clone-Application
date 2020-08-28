@@ -1,0 +1,15 @@
+{
+    "js":"javascript",
+    "css":"css",
+    "txt":"text",
+    "html":"html",
+    "htm":"html",
+    "json":"json",
+    "md":"txt",
+    "bat":"bat",
+    "java":"java",
+    "cpp":"cpp",
+    "php":"php",
+    "py":"python",
+    "ts":"typescript"
+}
